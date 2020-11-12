@@ -46,7 +46,7 @@ def jalan(z):
 		time.sleep(0.05)
 		
 		
-logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m___   _\n \x1b[1;93m|      | \x1b[1;92m|   _   |\x1b[1;94m|    _ |  \x1b[1;91m|   | | |\n \x1b[1;93m|  _    |\x1b[1;92m|  |_|  |\x1b[1;94m|   | ||  \x1b[1;91m|   |_| |\n \x1b[1;93m| | |   |\x1b[1;92m|       |\x1b[1;94m|   |_||_ \x1b[1;91m|      _|\n \x1b[1;93m| |_|   |\x1b[1;92m|       |\x1b[1;94m|    __  |\x1b[1;91m|     |_ \n \x1b[1;93m|       |\x1b[1;92m|   _   |\x1b[1;94m|   |  | |\x1b[1;91m|    _  |\n \x1b[1;93m|______| \x1b[1;92m|__| |__|\x1b[1;94m|___|  |_|\x1b[1;91m|___| |_| \x1b[1;96mFB\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mReCode \x1b[1;91m: \x1b[1;93momalip                   \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mFB    \x1b[1;92m \x1b[1;91m: \x1b[1;96mFacebook.com/theomalip     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mGitHub \x1b[1;91m: \x1b[1;94mGithub.com/storiku     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m___   _\n \x1b[1;93m|      | \x1b[1;92m|   _   |\x1b[1;94m|    _ |  \x1b[1;91m|   | | |\n \x1b[1;93m|  _    |\x1b[1;92m|  |_|  |\x1b[1;94m|   | ||  \x1b[1;91m|   |_| |\n \x1b[1;93m| | |   |\x1b[1;92m|       |\x1b[1;94m|   |_||_ \x1b[1;91m|      _|\n \x1b[1;93m| |_|   |\x1b[1;92m|       |\x1b[1;94m|    __  |\x1b[1;91m|     |_ \n \x1b[1;93m|       |\x1b[1;92m|   _   |\x1b[1;94m|   |  | |\x1b[1;91m|    _  |\n \x1b[1;93m|______| \x1b[1;92m|__| |__|\x1b[1;94m|___|  |_|\x1b[1;91m|___| |_| \x1b[1;96mFB\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mReCode \x1b[1;91m: \x1b[1;93mTomi Aji Dwita😎🇲🇨                   \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mFB    \x1b[1;92m \x1b[1;91m: \x1b[1;96mFacebook.com/jung.saak     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mGitHub \x1b[1;91m: \x1b[1;94mGithub.com/tomi033     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 """
 
 def tik():
@@ -67,24 +67,24 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mKenalan anjeng lu siape ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools TOLOLL ini !!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan login SC nya dulu TOLOLL\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="dark" and password =="fb":
+	if username =="Hecker" and password =="Kontol":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -139,7 +139,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mMampuss kena cek point lu TOLOLL")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -874,4 +874,4 @@ def clone_dari_file():
        
 		
 if __name__ == '__main__':
-	siapa()
+	Anjing()
